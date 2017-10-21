@@ -4,6 +4,7 @@ def using_until
         puts "Wingardium Leviosa"
         levitation_force++
         until levitation_force >= 10
+          break
         end
 
 end
